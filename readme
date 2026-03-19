@@ -1,5 +1,12 @@
 - model training (svd, als, neural cf --- compare ndcg@k and pick best)
 - baselines + evaluation metrics (ndcg, precision@k, MAP)
 - experiment tracking (mlflow?, diff models + hyperparams)
-- offline & "online" evaluation 
-- serving (fast api? :/ )
+- offline evaluations
+- serving (fast api + model registry )
+
+- segments
+
+
+stretch:
+- allow artists to upload their own art uwu (use vector similarity to combat cold start since no behavioral data)
+- online evals? :/
