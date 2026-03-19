@@ -9,4 +9,4 @@
 
 stretch:
 - allow artists to upload their own art uwu (use vector similarity to combat cold start since no behavioral data)
-- online evals? :/
+- online evals? :/ probs overkill and not useful with no userz
