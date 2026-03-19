@@ -1,3 +1,5 @@
+recommendation engine project
+
 - model training (svd, als, neural cf --- compare ndcg@k and pick best)
 - baselines + evaluation metrics (ndcg, precision@k, MAP)
 - experiment tracking (mlflow?, diff models + hyperparams)
