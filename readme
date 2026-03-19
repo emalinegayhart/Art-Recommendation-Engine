@@ -1,4 +1,4 @@
-- model training (als, svd/matrix factorization, neural collaborative filtering)
+- model training (neural collaborative filtering bc yolo)
 - evaluation metrics (ndcg, precision@k, MAP)
 - experiment tracking (mlflow?, diff models + hyperparams)
 - offline & "online" evaluation 
