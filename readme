@@ -1,0 +1,5 @@
+- model training (als, svd/matrix factorization, neural collaborative filtering)
+- evaluation metrics (ndcg, precision@k, MAP)
+- experiment tracking (mlflow?, diff models + hyperparams)
+- offline & "online" evaluation 
+- serving (fast api? :/ )
