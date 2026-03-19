@@ -1,5 +1,5 @@
 - model training (svd, als, neural cf --- compare ndcg@k and pick best)
-- evaluation metrics (ndcg, precision@k, MAP)
+- baselines + evaluation metrics (ndcg, precision@k, MAP)
 - experiment tracking (mlflow?, diff models + hyperparams)
 - offline & "online" evaluation 
 - serving (fast api? :/ )
