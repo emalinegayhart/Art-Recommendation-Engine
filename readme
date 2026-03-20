@@ -1,4 +1,5 @@
 recommendation engine project
+"develop your personal eye for art"
 
 - model training (svd, als, neural cf --- compare ndcg@k and pick best)
 - baselines + evaluation metrics (ndcg, precision@k, MAP)
