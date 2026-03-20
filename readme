@@ -1,15 +1,19 @@
 recommendation engine project
 "develop your personal eye"
 
-- model training (svd, als, neural cf --- compare ndcg@k and pick best)
+- synthetic interaction generation until real users accumulated
+- model training (svd, als, neural cf, two-tower --- compare ndcg@k and pick
+best)
 - baselines + evaluation metrics (ndcg, precision@k, MAP)
-- experiment tracking (mlflow?, diff models + hyperparams)
+- experiment tracking (mlflow, diff models + hyperparams)
 - offline evaluations
-- serving (fast api + model registry )
+- serving (fastapi + model registry)
 
-- segments
-
+hybrid:
+- CLIP embeddings for all artworks
+- filtering on user interactions (behavioral)
+- hybrid blending layer (weight content-based higher for new users to combat cold start then shift to filtering once behavioral data)
 
 stretch:
-- allow artists to upload their own art uwu (use vector similarity to combat cold start since no behavioral data)
-- online evals? :/ probs overkill and not useful with no userz
+- allow artists to upload their own art
+- segments once behavioral data
