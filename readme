@@ -8,6 +8,7 @@ best)
 - experiment tracking (mlflow, diff models + hyperparams)
 - offline evaluations
 - serving (fastapi + model registry)
+- data from WikiArt but with goal of it being completely user populated for indie artists
 
 hybrid:
 - CLIP embeddings for all artworks
